@@ -1,0 +1,29 @@
+{
+  "name": "chat-app-server",
+  "version": "0.0.1",
+  "license": "ISC",  
+  "author": "Aleksandar Kiselicki",  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akiselicki/chat-app-server.git"
+  },
+  "main": "server.js",  
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "mongoose": "^4.13.7",
+    "mongoose-paginate": "^5.0.3",
+    "socket.io": "^2.0.4"
+  },
+  "devDependencies": {
+    "connect-livereload": "^0.6.0"
+  },
+  "engines": {
+    "node": "8.7.0",
+    "npm": "5.4.2"
+  }
+}
